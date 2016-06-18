@@ -40,4 +40,10 @@ router.get('/demos', function(req, res) {
   res.render('demos');
 });
 
+/* GET /donate - show donate */
+router.get('/donate', function(req, res) {
+  res.render('donate');
+});
+
+
 module.exports = router;
